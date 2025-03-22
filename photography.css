@@ -1,0 +1,91 @@
+div{
+    font-family: Marcellus;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.topdiv{
+    height: 65px;
+    background-color: white;
+}
+.topdiv2{
+    flex: 6;
+}
+
+.topdiv3{
+    flex: 1;
+}
+.link1{
+    color: black;
+    text-decoration: none;
+}
+
+
+.middlediv{
+    flex-direction: column;
+
+}
+.indexdiv{
+    flex: 1;
+    flex-direction: column;
+}
+.CVanchor,.homeanchor, .resourcesanchor, .photographyanchor{
+    text-decoration: none;
+    color: black;
+}
+.aboutdiv{
+    flex: 4;
+    flex-direction: column;
+}
+
+.MyImage{
+    width: 360px;
+    height: 300px;
+}
+
+
+h1{
+    font-family: Bree Serif;
+    font-weight: bolder;
+    font-size: 56px;
+    text-align: center;
+    color: rgb(52, 89, 17);
+    margin-bottom: 30px;
+    margin-top: 0px;
+    flex: 1;
+}
+p   {
+    font-family: Marcellus;
+    font-size: 20px;
+}
+.list{
+    font-family: Marcellus;
+    font-size: 20px;
+    list-style-type: circle;
+}
+ol li {
+
+    margin-bottom: 20px; /* Adds 10px of space below each list item */
+  
+  }
+
+button{
+    color: rgb(0, 0, 0);
+    border-radius: 14px;
+    width: 175px ;
+    height: 55px;
+    border: none;
+    background-color: white;
+    font-family: Marcellus;
+    font-weight: bold;
+    font-size: 16px;
+    transition: font-size 1s, width 1s, height 1s;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px ;
+    height: 60px;
+}
+
