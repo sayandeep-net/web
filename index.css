@@ -6,8 +6,9 @@ div{
 }
 
 .topdiv{
-    height: 7.3vh;
+    height: 7.3%;
     background-color: white;
+    height: 10vh;
 }
 .topdiv2{
     flex: 6;
@@ -24,9 +25,10 @@ div{
 
 .middlediv{
     flex-direction: column;
-    height: 15vh;
+    height: 20vh;
 
 }
+
 .indexdiv{
     flex: 2;
     flex-direction: column;
@@ -34,6 +36,9 @@ div{
 .CVanchor,.homeanchor, .resourcesanchor, .photographyanchor{
     text-decoration: none;
     color: black;
+}
+.bodydiv{
+    height: 50vh;
 }
 .aboutdiv{
     flex: 5;
@@ -69,7 +74,7 @@ p{
 
 
 .bottomdiv{
-    height: 20vh;
+    height: 15vh;
 }
 .bottomdiv1{
     flex: 2;
