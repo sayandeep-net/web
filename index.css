@@ -25,7 +25,7 @@ div{
 
 .middlediv{
     flex-direction: column;
-    height: 20vh;
+    height: 16vh;
 
 }
 
@@ -38,7 +38,7 @@ div{
     color: black;
 }
 .bodydiv{
-    height: 50vh;
+    height: 55vh;
 }
 .aboutdiv{
     flex: 5;
