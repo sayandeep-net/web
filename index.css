@@ -103,8 +103,8 @@ p{
 button{
     color: rgb(0, 0, 0);
     border-radius: 14px;
-    width: 175px ;
-    height: 55px;
+    width: 150px ;
+    height: 30px;
     border: none;
     background-color: white;
     font-family: Marcellus;
@@ -112,10 +112,18 @@ button{
     font-size: 16px;
     transition: font-size 1s, width 1s, height 1s;
 }
+
 button:hover{
     cursor: pointer;
-    font-size: 20px;
-    width: 200px ;
-    height: 60px;
+    font-size: 16px;
+    width: 150px ;
+    height: 50px;
+}
+
+.topbutton1:hover{
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px ;
+    height: 30px;
 }
 
