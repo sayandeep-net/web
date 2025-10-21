@@ -5,6 +5,8 @@ div{
     flex-direction: row;
 }
 
+
+
 .topdiv{
     height: 65px;
     background-color: white;
@@ -27,7 +29,7 @@ div{
 
 }
 .indexdiv{
-    flex: 1;
+    flex: 2;
     flex-direction: column;
 }
 .CVanchor,.homeanchor, .resourcesanchor, .photographyanchor{
@@ -35,7 +37,7 @@ div{
     color: black;
 }
 .aboutdiv{
-    flex: 4;
+    flex: 6;
     flex-direction: column;
 }
 
@@ -67,8 +69,8 @@ ol li {
 button{
     color: rgb(0, 0, 0);
     border-radius: 14px;
-    width: 175px ;
-    height: 55px;
+    width: 150px ;
+    height: 30px;
     border: none;
     background-color: white;
     font-family: Marcellus;
@@ -78,8 +80,8 @@ button{
 }
 button:hover{
     cursor: pointer;
-    font-size: 20px;
-    width: 200px ;
-    height: 60px;
+    font-size: 16px;
+    width: 150px ;
+    height: 50px;
 }
 
